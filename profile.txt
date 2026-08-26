@@ -1,0 +1,20 @@
+[SEARCH_KEYWORDS]
+"mechanical engineering" (recruitment OR vacancy OR exam) when:30h
+"B.Tech Mechanical" (PSU OR Trainee OR Engineer OR "Scientist B") when:30h
+(GPSC OR UPSC OR PSC) "mechanical" (recruitment OR exam OR Class) when:30h
+(GET OR MT OR "Executive Trainee" OR "Assistant Engineer") "mechanical" when:30h
+(ISRO OR DRDO OR BARC OR BEL OR BHEL OR IOCL OR RRB) "mechanical" when:30h
+
+[EVALUATION_CRITERIA]
+Target Candidate:
+- Qualification: B.E. / B.Tech in Mechanical Engineering.
+- Experience: Freshers / Entry-Level (0 to 2 years max).
+
+Eligible Openings:
+- PSUs & Research Organizations (IOCL, ONGC, NTPC, BHEL, BEL, ISRO, DRDO, BARC, Coal India, etc.) for Executive Trainee, MT, GET, Scientist B, or Engineer roles.
+- State PSCs (GPSC Class 1 & 2, AE, Dy. Executive Engineer) and Central Services (UPSC ESE / Group A/B).
+- Railways (RRB SSE / JE) and Technical Armed Forces entries.
+
+Matching Rules:
+- Mark as YES for any active or upcoming recruitment notice open to Mechanical engineering freshers/graduates.
+- Mark as NO for university exam results, answer keys, cutoff analysis, non-engineering roles, and posts requiring 3+ years of mandatory prior experience.
