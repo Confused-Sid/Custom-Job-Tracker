@@ -1,20 +1,22 @@
 [SEARCH_KEYWORDS]
-"mechanical engineering" (recruitment OR vacancy OR exam) when:30h
-"B.Tech Mechanical" (PSU OR Trainee OR Engineer OR "Scientist B") when:30h
-(GPSC OR UPSC OR PSC) "mechanical" (recruitment OR exam OR Class) when:30h
-(GET OR MT OR "Executive Trainee" OR "Assistant Engineer") "mechanical" when:30h
-(ISRO OR DRDO OR BARC OR BEL OR BHEL OR IOCL OR RRB) "mechanical" when:30h
+(BHEL OR BPCL OR CIL OR GAIL OR HPCL OR IOCL OR NTPC OR ONGC OR POWERGRID OR SAIL OR REC OR PFC OR OIL OR HAL) "mechanical" when:30h
+(BEL OR EIL OR NALCO OR NMDC OR RVNL OR IRCON OR RITES OR NHPC OR SJVN OR RCF OR SECI OR HUDCO) "mechanical" when:30h
+(ISRO OR DRDO OR BARC OR BIS OR BDL OR BEML OR MDL OR GRSE OR CSL OR MIDHANI) "mechanical" when:30h
+(GPSC OR UPSC OR PSC OR SSC OR PSU OR Govt OR "Public Sector") "mechanical" recruitment when:30h
+"B.Tech Mechanical" (PSU OR Government OR Trainee OR Engineer OR Officer) when:30h
+(GET OR MT OR "Executive Trainee" OR "Assistant Engineer" OR "Scientist B") "mechanical" when:30h
 
 [EVALUATION_CRITERIA]
 Target Candidate:
 - Qualification: B.E. / B.Tech in Mechanical Engineering.
-- Experience: Freshers / Entry-Level (0 to 2 years max).
+- Experience: Freshers AND early-career professionals with 0 to 2 years of post-qualification experience.
 
 Eligible Openings:
-- PSUs & Research Organizations (IOCL, ONGC, NTPC, BHEL, BEL, ISRO, DRDO, BARC, Coal India, etc.) for Executive Trainee, MT, GET, Scientist B, or Engineer roles.
-- State PSCs (GPSC Class 1 & 2, AE, Dy. Executive Engineer) and Central Services (UPSC ESE / Group A/B).
-- Railways (RRB SSE / JE) and Technical Armed Forces entries.
+- ALL Public Sector Undertakings (PSUs), Joint Ventures, and Government of India Enterprises.
+- ALL State Public Service Commissions (e.g., GPSC) and Central Government Services (e.g., UPSC, SSC).
+- Any official government technical recruitment for roles like Executive Trainee, Management Trainee, Assistant Engineer, Scientist, or equivalent.
 
 Matching Rules:
-- Mark as YES for any active or upcoming recruitment notice open to Mechanical engineering freshers/graduates.
-- Mark as NO for university exam results, answer keys, cutoff analysis, non-engineering roles, and posts requiring 3+ years of mandatory prior experience.
+- Mark as YES for any active recruitment open to B.Tech Mechanical graduates requiring 0 to 2 years of experience.
+- The organization does not need to be explicitly listed in the search keywords; if the text describes a legitimate PSU, Defense, Research, or Government body, accept it.
+- Mark as NO for university exam results, answer keys, admit cards, cutoff analysis, non-engineering roles, diploma-only roles, apprenticeship-only roles, and posts strictly requiring 3 or more years of mandatory prior experience.
