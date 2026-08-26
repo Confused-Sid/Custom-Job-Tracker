@@ -7,15 +7,18 @@ import urllib.parse
 from bs4 import BeautifulSoup
 from google import genai
 from googlenewsdecoder import gnewsdecoder
+from dotenv import load_dotenv  # <--- Add this import
+
+# Load environment variables from the hidden .env file (if it exists)
+load_dotenv()  # <--- Execute it right away
 
 # --- CONFIGURATION & CREDENTIALS ---
-# Fetching secrets from environment variables securely
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 if not all([TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, GEMINI_API_KEY]):
-    raise ValueError("Missing one or more critical environment variables!")
+    raise ValueError("Missing credentials! Please set up your .env file or GitHub Secrets.")
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 HISTORY_FILE = "seen_jobs.txt"
